@@ -1,13 +1,20 @@
-import azathoth from './Azathoth.png';
-import cthulhu from './Cthulthu.png';
-import iogSothoth from './IogSothoth.png';
-import shubNiggurath from './ShubNiggurath.png';
+// import azathoth from '../../assets/Ancients/Azathoth.png';
+// import cthulhu from '../Ancients/Cthulthu.png';
+// import iogSothoth from '../Ancients/IogSothoth.png';
+// import shubNiggurath from '../Ancients/ShubNiggurath.png';
 
-const ancients = {
-  azathoth,
-  cthulhu,
-  iogSothoth,
-  shubNiggurath
-}
+// const ancients = {
+//   azathoth,
+//   cthulhu,
+//   iogSothoth,
+//   shubNiggurath
+// }
 
-export default ancients
+const Ancients = {
+     azathoth:'../../assets/Ancients/Azathoth.png',
+     cthulhu:'../../assets/Ancients/Cthulthu.png',
+     iogSothoth:'../../assets/Ancients/IogSothoth.png',
+     shubNiggurath:'../../assets/Ancients/ShubNiggurath.png'
+  }
+
+export default Ancients
